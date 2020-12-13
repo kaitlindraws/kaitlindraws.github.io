@@ -1,0 +1,18 @@
+title: Kit Draws | Kaitlin Reid
+author: Kaitlin Reid
+email: kaitlin.m.reid@gmail.com
+description: >-
+  My name is Kaitlin Reid, and I've been working since 2009 in the animation and
+  video game industry, after graduating from the Maryland Institute College of
+  Art. I specialize in character, costume, and color & lighting design and have
+  experience with 3D texturing, prop design, UI, and products & branding.
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-email-protect
+
+collections:
+  images:
+    output: true
