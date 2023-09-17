@@ -13,8 +13,8 @@
         {% assign images = site.images | sort: 'order' %}
         {% for image in images %}
         <article class="thumb">
-          <a href="{{site.baseurl}}/assets/images/fulls/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" class="image">
-            <img src="{{site.baseurl}}/assets/images/thumbs/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" alt="{{ image.title }}" />
+          <a href="{{site.baseurl}}/assets/images/fulls/{{ image.path | split: '/' | last | split: '.' | first }}.png" class="image">
+            <img src="{{site.baseurl}}/assets/images/thumbs/{{ image.path | split: '/' | last | split: '.' | first }}.png" alt="{{ image.title }}" />
           </a>
           <h2>{{ image.title }}</h2>
           <p>{{ image.caption }}</p>
